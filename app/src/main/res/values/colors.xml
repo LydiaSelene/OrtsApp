@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#40bfff</color>
+
+    <color name="colorHintText">#acacac</color>
+    <color name="colorHintAlert">#ba5757</color>
+    <color name="colorAnthrazit">#293133</color>
+    <color name="colorAnthrazitTrans">#80293133</color>
+    <color name="colorDarkDarkGrey">#292929</color>"#343434"
+    <color name="colorTextGrey">#343434</color>
+
+    <color name="color_action_mode_bg">#00645b</color>
+
+    <color name="text_color_default">#333333</color>
+    <color name="text_color_inverse">#FFFFFF</color>
+    <color name="white">#FFFFFF</color>
+    <color name="test">#FF00FF</color>
+    <color name="list_row_default_bg">#ffffff</color>
+    <color name="list_row_pressed_bg">#008cef</color>
+    <color name="list_row_selected_bg">#86d3f6</color><!--#86d3f6 -->
+</resources>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/toolbar"/>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Title"
+            android:id="@+id/textView_Title"
+            android:layout_centerHorizontal="true"
+            android:textSize="32sp"
+            android:singleLine="false"
+            android:layout_marginTop="15dp"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/editText_Title"
+            android:layout_centerHorizontal="true"
+            android:textSize="32sp"
+            android:visibility="gone"
+            android:singleLine="true"
+            android:layout_marginTop="15dp" />
+
+        <ImageButton
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_edit_black_24dp"
+            android:id="@+id/button_edit_title"
+            android:onClick="on_editTitle"
+            android:layout_alignRight="@+id/textView_Title"
+            android:alpha="0.5"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="3dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="street \n plz and town"
+            android:id="@+id/textView_street_postal_town"
+            android:layout_centerHorizontal="true"
+            android:textSize="18sp"
+            android:textAlignment="center" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/editText_Street"
+            android:layout_centerHorizontal="true"
+            android:textSize="18sp"
+            android:visibility="gone"
+            android:singleLine="true"
+            android:layout_marginTop="15dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/editText_Postal"
+            android:layout_centerHorizontal="true"
+            android:textSize="18sp"
+            android:visibility="gone"
+            android:singleLine="true"
+            android:layout_marginTop="15dp" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:id="@+id/editText_Town"
+            android:layout_centerHorizontal="true"
+            android:textSize="18sp"
+            android:visibility="gone"
+            android:singleLine="true"
+            android:layout_marginTop="15dp" />
+
+        <ImageButton
+            style="?android:attr/borderlessButtonStyle"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_edit_black_24dp"
+            android:id="@+id/button_edit_street"
+            android:onClick="on_editAdressAttributes"
+            android:layout_alignRight="@+id/textView_Street"
+            android:alpha="0.5"
+            android:layout_marginLeft="3dp" />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

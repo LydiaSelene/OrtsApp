@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Projekt in Mobile Applikationen</string>
+    <string name="title_activity_my_locations">Meine Orte</string>
+    <string name="title_activity_create_a_location">Einen neuen Ort anlegen</string>
+    <string name="locationList_cab_delete">Orte löschen</string>
+    <string name="title_activity_a_location">Ein Ort</string>
+</resources>

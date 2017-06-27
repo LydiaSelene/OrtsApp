@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.lydia.mobappprojekt.MainActivity">
+
+    <include layout="@layout/toolbar"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/toolbar"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:paddingBottom="@dimen/activity_vertical_margin">
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Meine Orte"
+            android:id="@+id/buttonMainLocations"
+            android:textSize="20sp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="2"
+            android:layout_gravity="center_horizontal"
+            android:textColor="@color/colorAnthrazit" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="DJ-Controller"
+            android:id="@+id/buttonMainDJWish"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20sp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="2"
+            android:textColor="@color/colorAnthrazit" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Meine Aufgaben"
+            android:id="@+id/buttonMainTasks"
+            android:layout_gravity="center_horizontal"
+            android:textSize="20sp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="2"
+            android:textColor="@color/colorAnthrazit" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tschüss"
+            android:id="@+id/buttonMainExit"
+            android:layout_gravity="center_horizontal"
+            android:textSize="@dimen/abc_text_size_menu_material"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="2"
+            android:textColor="@color/colorAnthrazit" />
+    </LinearLayout>
+
+
+
+</RelativeLayout>
+
+
